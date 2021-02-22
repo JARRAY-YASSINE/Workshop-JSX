@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 import './App.css';
 
-import JSXImage from './assets/jsx-src.png'
+import './Style.css';
 
 
 function App() {
@@ -26,18 +26,10 @@ function App() {
       {/* Closing tags */}
       <hr style={{ width: "50%" }} />
 
-      {/* Warning without the "alt" prop of "img" tag */}
-      <img
-        className="react-logo"
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"
-        alt="logo react"
-      />
-      <br />
-
       {/* importing images */}
-      <img src="logo192.png" alt="" style={{ width: "20%" }} />
+      <img src='logo192.png' alt="" style={{ width: "14%" }} />
       <br /><br /><br />
-      <img src={JSXImage} alt="" style={{ width: "10%" }} />
+      <img src='./assets/jsxsrc.png' alt="" style={{ width: "20%" }} />
       <br /><br /><br />
       <video controls src={"/assets/WhySelenium.mp4"} type={"video/mp4"} width={"320"} height={"240"}/>  
       <br /><br /><br />
