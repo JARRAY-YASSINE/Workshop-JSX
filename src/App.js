@@ -25,11 +25,11 @@ function App() {
 
       {/* Closing tags */}
       <hr style={{ width: "50%" }} />
-
+      
       {/* importing images */}
       <img src='logo192.png' alt="" style={{ width: "14%" }} />
       <br /><br /><br />
-      <img src='./assets/jsxsrc.png' alt="" style={{ width: "20%" }} />
+      <img src='./src/assets/jsxsrc.png' alt="" style={{ width: "20%" }} />
       <br /><br /><br />
       <video controls src={"/assets/WhySelenium.mp4"} type={"video/mp4"} width={"320"} height={"240"}/>  
       <br /><br /><br />
